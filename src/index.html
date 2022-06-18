@@ -18,19 +18,18 @@
 <body>
     <div>
         <nav class="navbar">
-            <div class="container-fluid">
-                <h1 class="mx-2 my-1 display-6">sleepytime</h1>
+            <div class="container-fluid my-1">
+                <h1 class="display-6 mx-2">sleepytime</h1>
                 <div></div>
                 <a href="https://allforgoodsleep.com/the-90-minute-sleep-cycle/">
-                    <h1 id="whysleep" class="mx-2 my-1 display-6">why sleep at these times?</h1>
+                    <h1 id="whysleep" class="display-6 mx-2">why sleep at these times?</h1>
                 </a>
             </div>
         </nav>
-        <div class="container">
-            <div class="position-absolute top-50 start-50 translate-middle text-center">
-                <script type="text/javascript" src="src/index.js"></script>
-                <h1 class="display-5 my-2">I want to wake up at ...</h1>
-                <select class="text-center btn-dropdown-1 btn-text my-2">
+        <div class="container-parent m-3">
+            <div class="child text-center m-5 p-5">
+                <h1 class="display-5 m-4">I want to wake up at ...</h1>
+                <select class="text-center btn-dropdown-1 btn-text">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -62,10 +61,18 @@
                     <option>AM</option>
                     <option>PM</option>
                 </select>
-                <h1 class="display-5 text-nowrap my-2">If I sleep now, i'll wake up at ...</h1>
-                <button class="btn-1 btn-text my-2">CALCULATE</button>
+                <div className=""></div>
+                <button class="btn-1 btn-text m-3" onclick="dateGrabber()">CALCULATE</button>
+
+                <h1 class="display-5 text-nowrap m-4">If I sleep now, i'll wake up at ...</h1>
+                <button class="btn-1 btn-text" onclick="dateGrabber()">CALCULATE</button>
+                <script src="index.js">
+
+                </script>
             </div>
         </div>
+        <h3 class="text-center p-5">Longer sleep doesn't mean better sleep.</h3>
+
     </div>
 
 </body>
