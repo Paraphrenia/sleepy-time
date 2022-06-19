@@ -11,9 +11,10 @@ function dateGrabber() {
 
 
     // Adds 90 minutes, 6 times
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < 6; i++) {
          d.setMinutes(d.getMinutes() + 90);
          console.log(
             d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
-          );    }
+        );    
+    }
 }
