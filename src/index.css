@@ -47,8 +47,8 @@ a{
     border: none;
     background: none;
 
-    width: 74px;
-    height: 65px;
+    width: 80px;
+    height: 60px;
     left: 563px;
     top: 421px;
     
@@ -57,12 +57,11 @@ a{
 }
 
 .btn-dropdown-1{
-    padding:0;
     border: none;
     background: none;
 
-    width: 80px;
-    height: 65px;
+    width: 75px;
+    height: 60px;
     left: 563px;
     top: 421px;
     
@@ -72,4 +71,13 @@ a{
 
 select{
     border-radius: 5px;
+}
+
+
+.hidden1{
+    display: none !important;
+}
+
+#block{
+    display: block !important;
 }
