@@ -5,7 +5,7 @@ html,body{
     overflow: hidden;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4, h5{
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
 }
@@ -19,14 +19,27 @@ a{
     text-align: center;
 }
 
-.flex{
-    display: flex;
+li{
+    width:100%;
+}
+
+.nav{
+}
+
+.nav-link{
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    list-style-type: none;
+}
+
+#whysleep{
+    text-decoration: underline 2px;
 }
 
 .outer{
-
+  margin-top: 100px;
   display: table;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   height: 100%;
@@ -34,26 +47,14 @@ a{
 }
 
 .middle{
-
     display: table-cell;
     vertical-align: middle;
 }
 
 .inner{
-
     margin-left: auto;
     margin-right: auto;
     width: 400px;
-}
-
-li{
-    display: inline;
-    font-family: 'Raleway', sans-serif;
-    font-size: x-large;
-}
-
-#whysleep{
-    text-decoration: underline 2px;
 }
 
 .btn-text{
@@ -77,12 +78,15 @@ li{
     
     background: #B1BCA0;
     border-radius: 15px;
+
+    cursor: grabbing;
+
 }
 
 .btn-2{
-    padding:0;
-    border: none;
     background: none;
+    border: none;
+
 
     width: 80px;
     height: 60px;
@@ -91,6 +95,8 @@ li{
     
     background: #B1BCA0;
     border-radius: 15px;
+    cursor: auto;
+
 }
 
 .btn-dropdown-1{
@@ -116,4 +122,12 @@ select{
 
 #block{
     display: block !important;
+}
+
+#longerSleep{
+    margin-top: 50px;
+}
+
+.button-anchor{
+    color: #ffffff !important;
 }
