@@ -1,4 +1,4 @@
-function dateGrabber() {
+function dateNow() {
     // Grabs full time and date from users computer
     let d = new Date()
     console.log(d)
@@ -18,3 +18,15 @@ function dateGrabber() {
         );    
     }
 }
+
+function dateSet() {
+    // Grabs full time and date from users computer
+    let d = new Date()
+    console.log(d)
+
+
+    // Adds 14 minutes
+    d.setMinutes(d.getMinutes() + 14);
+    console.log(d)
+
+    }
