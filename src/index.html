@@ -33,7 +33,7 @@
                 <div class="inner">
                     <h1 class="">I want to wake up at</h1>
 
-                    <select class="btn-dropdown-1 btn-text text-center">
+                    <select class="btn-dropdown-1 btn-text text-center" id="hours">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -48,7 +48,7 @@
                         <option>12</option>
                     </select>
 
-                    <select class="btn-dropdown-1 btn-text text-center">
+                    <select class="btn-dropdown-1 btn-text text-center" id="minutes">
                         <option>00</option>
                         <option>05</option>
                         <option>10</option>
@@ -63,22 +63,18 @@
                         <option>55</option>
                     </select>
 
-                    <select class="btn-2 btn-text text-center">
+                    <select class="btn-2 btn-text text-center" id="timezone">
                         <option>AM</option>
                         <option>PM</option>
                     </select>
 
                     <div className="justify-content-center"></div>
                     <button class="btn-1 btn-text" onclick="dateSet()">
-                        <a href="/src/times.html" class="button-anchor">
-                            CALCULATE
-                        </a>
+                        CALCULATE
                     </button>
                     <h1 class="">I want to sleep now</h1>
                     <button class="btn-1 btn-text" onclick="dateNow()">
-                        <a href="/src/times.html" class="button-anchor">
-                            CALCULATE
-                        </a>
+                        CALCULATE
                     </button>
                     <script src="index.js">
                     </script>
