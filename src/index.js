@@ -1,4 +1,8 @@
 function dateNow() {
+
+    document.getElementById('display').style.display = 'none'
+    document.getElementById('display-block-click').style.display = 'block'
+
     // Grabs full time and date from users computer
     let d = new Date()
     console.log(d)

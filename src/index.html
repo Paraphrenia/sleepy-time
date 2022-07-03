@@ -27,61 +27,66 @@
             </ul>
         </nav>
 
+        <!-- Display none div -->
+        <div class="none text-center" id="display-block-click">
+        </div>
+
         <!-- Main container -->
-        <div id="swup" class="text-center outer">
-            <div class="middle">
-                <div class="inner">
-                    <h1 class="">I want to wake up at</h1>
+        <div class="text-center parent" id="display">
+            <div class="child">
+                <h1 class="">I want to wake up at</h1>
 
-                    <select class="btn-dropdown-1 btn-text text-center" id="hours">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                        <option>11</option>
-                        <option>12</option>
-                    </select>
+                <select class="btn-dropdown-1 btn-text text-center" id="hours">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
 
-                    <select class="btn-dropdown-1 btn-text text-center" id="minutes">
-                        <option>00</option>
-                        <option>05</option>
-                        <option>10</option>
-                        <option>15</option>
-                        <option>20</option>
-                        <option>25</option>
-                        <option>30</option>
-                        <option>35</option>
-                        <option>40</option>
-                        <option>45</option>
-                        <option>50</option>
-                        <option>55</option>
-                    </select>
+                <select class="btn-dropdown-1 btn-text text-center" id="minutes">
+                    <option>00</option>
+                    <option>05</option>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>20</option>
+                    <option>25</option>
+                    <option>30</option>
+                    <option>35</option>
+                    <option>40</option>
+                    <option>45</option>
+                    <option>50</option>
+                    <option>55</option>
+                </select>
 
-                    <select class="btn-2 btn-text text-center" id="timezone">
-                        <option>AM</option>
-                        <option>PM</option>
-                    </select>
+                <select class="btn-2 btn-text text-center" id="timezone">
+                    <option>AM</option>
+                    <option>PM</option>
+                </select>
 
-                    <div className="justify-content-center"></div>
-                    <button class="btn-1 btn-text" onclick="dateSet()">
-                        CALCULATE
-                    </button>
-                    <h1 class="">I want to sleep now</h1>
-                    <button class="btn-1 btn-text" onclick="dateNow()">
-                        CALCULATE
-                    </button>
-                    <script src="index.js">
-                    </script>
+                <div className="justify-content-center"></div>
 
-                </div>
+                <button class="btn-1 btn-text" onclick="dateSet()">
+                    CALCULATE
+                </button>
+                <h1 class="">I want to sleep now</h1>
+                <button class="btn-1 btn-text" onclick="dateNow()">
+                    CALCULATE
+                </button>
+
+
+
+                <script src="index.js">
+                </script>
+
                 <h1 id="longerSleep">Longer sleep doesn't mean better sleep.</h1>
-
             </div>
         </div>
     </div>

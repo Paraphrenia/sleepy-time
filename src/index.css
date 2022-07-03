@@ -3,6 +3,8 @@ html,body{
     min-height: 100vh;
     background-color: #D8DDCF !important;
     overflow: hidden;
+    vertical-align: baseline;
+
 }
 
 h1, h2, h3, h4, h5{
@@ -23,10 +25,6 @@ li{
     display: inline-flex;
 }
 
-nav{
-    
-}
-
 .nav-link{
     font-family: 'Raleway', sans-serif;
     font-size: xx-large;
@@ -37,28 +35,16 @@ nav{
 #whysleep{
     text-decoration: underline 2px;
     float: right;
-    margin-right: 35px;
 }
 
-.outer{
-  margin-top: 100px;
-  display: table;
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
-.middle{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.inner{
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+.child{
 }
 
 .btn-text{
@@ -143,9 +129,25 @@ option{
 
 }
 
+.none{
+    display: none;
+}
 
-@media screen and (max-width: 700px) {
+.block{
+    display: block !important;
+}
+
+#display-block-click{
+}
+
+@media screen and (max-width: 800px) {
     #whysleep {
         float: none !important;        
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .parent {
+        padding: 0;   
     }
 }
