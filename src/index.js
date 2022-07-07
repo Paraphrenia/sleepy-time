@@ -31,7 +31,14 @@ function dateNow() {
     for (let i = 0; i < 6; i++) {
         d.setMinutes(d.getMinutes() + 90);
         console.log(
-            d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
+            d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }),
         );
+        const body = document.getElementById("print-now-results")
+        const h1 = document.createElement("h1")
+        h1.textContent = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
+        body.append(h1)
+        h1.classList.add("result-container")
     }
+
 }
+
