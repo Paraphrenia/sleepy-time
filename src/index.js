@@ -40,5 +40,16 @@ function dateNow() {
         h1.classList.add("result-container")
     }
 
+    const body = document.getElementById("print-now-results")
+    const h1 = document.createElement("h1")
+    h1.textContent = "It's best to get 5-6 cycles of sleep"
+    body.append(h1)
+
+    const button = document.createElement("button")
+    button.textContent = "Go Home"
+    body.append(button)
+    button.classList.add("btn-1", "btn-text")
 }
 
+
+button.onclick = window.location.reload()

@@ -17,6 +17,14 @@ a{
     color: black !important;
 }
 
+.hidden1{
+    display: none !important;
+}
+
+#block{
+    display: block !important;
+}
+
 .text-center{
     text-align: center;
 }
@@ -35,6 +43,7 @@ li{
 #whysleep{
     text-decoration: underline 2px;
     float: right;
+    padding-right: 35px;
 }
 
 .parent{
@@ -44,15 +53,11 @@ li{
     padding: 50px;
 }
 
-.child{
-}
-
 .btn-text{
     font-size: xx-large;
     color: #ffffff !important;
     font-family: 'Raleway', sans-serif;
 }
-
 
 .btn-1{
     padding:0;
@@ -106,14 +111,6 @@ select{
     border-radius: 5px;
 }
 
-.hidden1{
-    display: none !important;
-}
-
-#block{
-    display: block !important;
-}
-
 #longerSleep{
     margin-top: 50px;
 }
@@ -157,6 +154,11 @@ option{
     color: #ffffff;
     background: #B1BCA0;
     border-radius: 15px;
+    font-weight: bold;
+}
+
+#bottom-results{
+    
 }
 
 @media screen and (max-width: 800px) {
