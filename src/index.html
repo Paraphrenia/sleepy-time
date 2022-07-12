@@ -15,90 +15,88 @@
 </head>
 
 <body>
-    <div class="">
 
-        <!-- Navigation bar -->
-        <nav>
-            <ul class="nav-link">
-                <li class="" style=>sleepytime</li>
-                <a href="https://allforgoodsleep.com/the-90-minute-sleep-cycle/">
-                    <li id="whysleep" class="">why sleep at these times?</li>
-                </a>
-            </ul>
-        </nav>
+    <!-- Navigation bar -->
+    <nav>
+        <ul class="nav-link">
+            <li class="" style=>sleepytime</li>
+            <a href="https://allforgoodsleep.com/the-90-minute-sleep-cycle/">
+                <li id="whysleep" class="">why sleep at these times?</li>
+            </a>
+        </ul>
+    </nav>
 
-        <!-- Display none div for SET time calculate -->
-        <div class="none text-center parent" id="display-block-set">
-            <h1>
-                This is a set test.
-            </h1>
+    <!-- Display none div for SET time calculate -->
+    <div class="none text-center parent" id="display-block-set">
+        <h1>
+            This is a set test.
+        </h1>
+    </div>
+
+    <!-- Display none div for calculate NOW -->
+    <div id="display-block-now" class="none text-center parent">
+        <div id="print-now-results" class="child">
+            <h1>Sleep now, wake up at</h1>
         </div>
-
-        <!-- Display none div for calculate NOW -->
-        <div  id="display-block-now" class="none text-center parent">
-            <div id="print-now-results" class="child">
-                <h1>Sleep now, wake up at</h1>
-            </div>
-        </div>
+    </div>
 
 
-        <!-- Main container -->
-        <div class="text-center parent" id="display">
-            <div class="child">
-                <h1 class="">I want to wake up at</h1>
+    <!-- Main container -->
+    <div class="text-center parent" id="display">
+        <div class="child">
+            <h1>I want to wake up at</h1>
 
-                <select class="btn-dropdown-1 btn-text text-center" id="hours">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
-                </select>
+            <select class="btn-dropdown-1 btn-text text-center" id="hours">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+            </select>
 
-                <select class="btn-dropdown-1 btn-text text-center" id="minutes">
-                    <option>00</option>
-                    <option>05</option>
-                    <option>10</option>
-                    <option>15</option>
-                    <option>20</option>
-                    <option>25</option>
-                    <option>30</option>
-                    <option>35</option>
-                    <option>40</option>
-                    <option>45</option>
-                    <option>50</option>
-                    <option>55</option>
-                </select>
+            <select class="btn-dropdown-1 btn-text text-center" id="minutes">
+                <option>00</option>
+                <option>05</option>
+                <option>10</option>
+                <option>15</option>
+                <option>20</option>
+                <option>25</option>
+                <option>30</option>
+                <option>35</option>
+                <option>40</option>
+                <option>45</option>
+                <option>50</option>
+                <option>55</option>
+            </select>
 
-                <select class="btn-2 btn-text text-center" id="timezone">
-                    <option>AM</option>
-                    <option>PM</option>
-                </select>
+            <select class="btn-2 btn-text text-center" id="timezone">
+                <option>AM</option>
+                <option>PM</option>
+            </select>
 
-                <div className="justify-content-center"></div>
+            <div className="justify-content-center"></div>
 
-                <button class="btn-1 btn-text" onclick="dateSet()">
-                    CALCULATE
-                </button>
-                <h1 class="">I want to sleep now</h1>
-                <button class="btn-1 btn-text" onclick="dateNow()">
-                    CALCULATE
-                </button>
+            <button class="btn-1 btn-text" onclick="dateSet()">
+                CALCULATE
+            </button>
+            <h1 class="">I want to sleep now</h1>
+            <button class="btn-1 btn-text" onclick="dateNow()">
+                CALCULATE
+            </button>
 
 
 
-                <script src="index.js">
-                </script>
+            <script src="index.js">
+            </script>
 
-                <h1 id="longerSleep">Calculates 90 minute sleepy cycles to determine the best time to sleep.</h1>
-            </div>
+            <h1 id="longerSleep">Calculates 90 minute sleepy cycles to determine the best time to sleep.</h1>
         </div>
     </div>
 </body>
