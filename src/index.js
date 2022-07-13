@@ -49,7 +49,11 @@ function dateNow() {
     button.textContent = "Go Home"
     body.append(button)
     button.classList.add("btn-1", "btn-text")
+    button.id="go-home"
+
+    document.getElementById("go-home").onclick = function() {
+        window.location.reload()
+    }
+
 }
 
-
-button.onclick = window.location.reload()
