@@ -18,6 +18,9 @@ function dateSet() {
 
     // Grabs meridiem from html option
     const meridiem = document.getElementById("meridiem").options[document.getElementById("meridiem").selectedIndex].text
+    if (meridiem === "PM") {
+        d.setHours(d.getHours() + 12)
+    }
 
     // Prints time
     console.log(d)
