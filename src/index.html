@@ -28,15 +28,15 @@
 
     <!-- Display none div for SET time calculate -->
     <div class="none text-center parent" id="display-block-set">
-        <h1>
-            This is a set test.
-        </h1>
+        <div id="print-set-results">
+            <h1>If you want to wake up at</h1>
+        </div>
     </div>
 
     <!-- Display none div for calculate NOW -->
     <div id="display-block-now" class="none text-center parent">
         <div id="print-now-results" class="child">
-            <h1>Sleep now, wake up at</h1>
+            <h1>Sleep now, wake up at these times:</h1>
         </div>
     </div>
 
@@ -76,7 +76,7 @@
                 <option>55</option>
             </select>
 
-            <select class="btn-2 btn-text text-center" id="timezone">
+            <select class="btn-2 btn-text text-center" id="meridiem">
                 <option>AM</option>
                 <option>PM</option>
             </select>
@@ -96,7 +96,7 @@
             <script src="index.js">
             </script>
 
-            <h1 id="longerSleep">Calculates 90 minute sleepy cycles to determine the best time to sleep.</h1>
+            <h1 id="longerSleep">Calculates 90 minute sleep cycles to determine the best time to sleep.</h1>
         </div>
     </div>
 </body>
