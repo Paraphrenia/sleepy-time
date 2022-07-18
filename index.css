@@ -170,3 +170,9 @@ option{
         font-size: large !important;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .result-container {
+        flex-direction: row !important;
+    }
+}
