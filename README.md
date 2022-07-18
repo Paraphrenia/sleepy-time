@@ -1,6 +1,6 @@
 # sleepy-time
 
-![SleepytimeLogo](src/Github.png)
+![SleepytimeLogo](src/Sleepytime.png)
 
 # Overview
 
