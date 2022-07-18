@@ -54,6 +54,22 @@ li{
     font-family: 'Raleway', sans-serif;
 }
 
+.go-home{
+    padding:0;
+
+    border: none;
+    background: none;
+
+    width: 25rem;
+    height: 4rem;
+    
+    background: #B1BCA0;
+    border-radius: 15px;
+
+    cursor: grabbing;
+
+}
+
 .btn-1{
     padding:0;
     margin: 1rem;

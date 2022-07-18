@@ -66,7 +66,7 @@ function dateSet() {
     const button = document.createElement("button")
     button.textContent = "Go Home"
     body.append(button)
-    button.classList.add("btn-1", "btn-text")
+    button.classList.add("go-home", "btn-text")
     button.id = "go-home"
 
     document.getElementById("go-home").onclick = function () {
@@ -111,7 +111,7 @@ function dateNow() {
     const button = document.createElement("button")
     button.textContent = "Go Home"
     body.append(button)
-    button.classList.add("btn-1", "btn-text")
+    button.classList.add("go-home", "btn-text")
     button.id = "go-home"
 
     document.getElementById("go-home").onclick = function () {
