@@ -174,5 +174,11 @@ option{
 @media screen and (max-width: 1000px) {
     .result-container {
         flex-direction: row !important;
+
+        width: 8rem;
+        height: 5rem;
+
+        font-size: x-large !important;
+        font-weight: bold;
     }
 }
