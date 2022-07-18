@@ -56,15 +56,13 @@ li{
 
 .btn-1{
     padding:0;
-    margin: 10px;
+    margin: 1rem;
 
     border: none;
     background: none;
 
-    width: 372px;
-    height: 63px;
-    left: 534px;
-    top: 611px;
+    width: 25rem;
+    height: 4rem;
     
     background: #B1BCA0;
     border-radius: 15px;
@@ -76,10 +74,9 @@ li{
 .btn-2{
     border: none;
 
-    width: 80px;
-    height: 60px;
-    left: 563px;
-    top: 421px;
+    width: 5rem;
+    height: 3.7rem;
+
     
     background: #B1BCA0;
     border-radius: 15px;
@@ -90,10 +87,8 @@ li{
 .btn-dropdown-1{
     border: none;
 
-    width: 75px;
-    height: 60px;
-    left: 563px;
-    top: 421px;
+    width: 4.5rem;
+    height: 3.7rem;
     
     background: #B1BCA0;
     border-radius: 15px;
@@ -104,7 +99,7 @@ select{
 }
 
 #longerSleep{
-    margin-top: 50px;
+    margin-top: 3rem;
 }
 
 option{
