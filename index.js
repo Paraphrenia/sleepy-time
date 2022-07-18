@@ -57,7 +57,7 @@ function dateSet() {
     body.append(div1)
 
     // Adds disclaimer text
-    const cycles = document.createElement("h1")
+    const cycles = document.createElement("h2")
     cycles.textContent = ("It's best to get 5-6 sleep cycles.")
     body.append(cycles)
     
@@ -103,9 +103,9 @@ function dateNow() {
 
     // Prints 15 minutes disclaimer
     const body = document.getElementById("print-now-results")
-    const h1 = document.createElement("h1")
-    h1.textContent = "(The average time to fall asleep is 15 minutes)"
-    body.append(h1)
+    const h2 = document.createElement("h2")
+    h2.textContent = "(The average time to fall asleep is 15 minutes)"
+    body.append(h2)
 
     // Creates Go Home button
     const button = document.createElement("button")
