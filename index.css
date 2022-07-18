@@ -167,6 +167,7 @@ option{
 
 @media screen and (max-width: 1000px) {
     .btn-2 {
+        background-color: #B1BCA0 !important;
         font-size: large !important;
     }
 }
