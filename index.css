@@ -33,7 +33,6 @@ li{
     font-family: 'Raleway', sans-serif;
     font-size: xx-large;
     list-style-type: none;
-
 }
 
 #whysleep{
@@ -75,9 +74,7 @@ li{
 }
 
 .btn-2{
-    background: none;
     border: none;
-
 
     width: 80px;
     height: 60px;
@@ -92,7 +89,6 @@ li{
 
 .btn-dropdown-1{
     border: none;
-    background: none;
 
     width: 75px;
     height: 60px;
@@ -109,10 +105,6 @@ select{
 
 #longerSleep{
     margin-top: 50px;
-}
-
-.button-anchor{
-    color: #ffffff !important;
 }
 
 option{
@@ -166,3 +158,15 @@ option{
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .btn-dropdown-1 {
+        font-size: large !important;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .btn-2 {
+        font-size: large !important;
+    }
+}
