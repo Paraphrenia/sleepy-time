@@ -160,14 +160,14 @@ option{
 
 @media screen and (max-width: 1000px) {
     .btn-dropdown-1 {
-        font-size: large !important;
+        font-size: x-large !important;
     }
 }
 
 
 @media screen and (max-width: 1000px) {
     .btn-2 {
-        font-size: large !important;
+        font-size: x-large !important;
     }
 }
 
