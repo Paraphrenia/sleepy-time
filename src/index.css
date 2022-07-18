@@ -130,10 +130,6 @@ option{
     display: block !important;
 }
 
-#print-now-results{
-
-}
-
 .result-container{
     justify-content: center;
     align-items: center;
@@ -167,12 +163,6 @@ option{
 @media screen and (max-width: 800px) {
     .parent {
         padding: 0;   
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    body {
-        overflow: visible !important;   
     }
 }
 
