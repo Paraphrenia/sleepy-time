@@ -1,6 +1,6 @@
 # sleepy-time
 
-![SleepytimeLogo](src/sleepytimeBanner.png)
+![SleepytimeLogo](sleepytimeBanner.png)
 
 # Overview
 
