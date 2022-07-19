@@ -36,7 +36,7 @@ function dateSet() {
 
     // Adds text to let user know the times below are to sleep
     const sleepText = document.createElement("h1")
-    sleepText.textContent = "You should sleep at these following times"
+    sleepText.textContent = "You should fall sleep at these following times"
     body.append(sleepText)
 
     // Displays math results for when user should sleep
